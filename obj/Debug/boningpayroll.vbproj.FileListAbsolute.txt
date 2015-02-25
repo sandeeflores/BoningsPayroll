@@ -1,0 +1,48 @@
+C:\Users\aCePaDe\Documents\Visual Studio 2008\Projects\boningpayroll\boningpayroll\bin\Debug\boningpayroll.exe
+C:\Users\aCePaDe\Documents\Visual Studio 2008\Projects\boningpayroll\boningpayroll\bin\Debug\boningpayroll.pdb
+C:\Users\aCePaDe\Documents\Visual Studio 2008\Projects\boningpayroll\boningpayroll\bin\Debug\boningpayroll.xml
+C:\Users\aCePaDe\Documents\Visual Studio 2008\Projects\boningpayroll\boningpayroll\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\aCePaDe\Documents\Visual Studio 2008\Projects\boningpayroll\boningpayroll\obj\Debug\boningpayroll.Resources.resources
+C:\Users\aCePaDe\Documents\Visual Studio 2008\Projects\boningpayroll\boningpayroll\obj\Debug\boningpayroll.vbproj.GenerateResource.Cache
+C:\Users\aCePaDe\Documents\Visual Studio 2008\Projects\boningpayroll\boningpayroll\obj\Debug\boningpayroll.exe
+C:\Users\aCePaDe\Documents\Visual Studio 2008\Projects\boningpayroll\boningpayroll\obj\Debug\boningpayroll.xml
+C:\Users\aCePaDe\Documents\Visual Studio 2008\Projects\boningpayroll\boningpayroll\obj\Debug\boningpayroll.pdb
+C:\Users\aCePaDe\Documents\Visual Studio 2008\Projects\boningpayroll\boningpayroll\obj\Debug\boningpayroll.frmEmployee.resources
+F:\Payroll\boningpayroll\boningpayroll\obj\Debug\boningpayroll.exe
+F:\Payroll\boningpayroll\boningpayroll\obj\Debug\boningpayroll.xml
+F:\Payroll\boningpayroll\boningpayroll\obj\Debug\boningpayroll.pdb
+G:\Payroll\boningpayroll\boningpayroll\obj\Debug\boningpayroll.exe
+G:\Payroll\boningpayroll\boningpayroll\obj\Debug\boningpayroll.xml
+G:\Payroll\boningpayroll\boningpayroll\obj\Debug\boningpayroll.pdb
+G:\Payroll\boningpayroll\boningpayroll\bin\Debug\boningpayroll.exe
+G:\Payroll\boningpayroll\boningpayroll\bin\Debug\boningpayroll.pdb
+G:\Payroll\boningpayroll\boningpayroll\bin\Debug\boningpayroll.xml
+G:\Payroll\boningpayroll\boningpayroll\obj\Debug\ResolveAssemblyReference.cache
+G:\Payroll\boningpayroll\boningpayroll\obj\Debug\boningpayroll.DEPARTMENT.resources
+G:\Payroll\boningpayroll\boningpayroll\obj\Debug\boningpayroll.frmEmployee.resources
+G:\Payroll\boningpayroll\boningpayroll\obj\Debug\boningpayroll.Resources.resources
+G:\Payroll\boningpayroll\boningpayroll\obj\Debug\boningpayroll.POSITION.resources
+G:\Payroll\boningpayroll\boningpayroll\obj\Debug\boningpayroll.vbproj.GenerateResource.Cache
+F:\Payroll\boningpayroll\boningpayroll\bin\Debug\boningpayroll.exe
+F:\Payroll\boningpayroll\boningpayroll\bin\Debug\boningpayroll.pdb
+F:\Payroll\boningpayroll\boningpayroll\bin\Debug\boningpayroll.xml
+F:\Payroll\boningpayroll\boningpayroll\obj\Debug\ResolveAssemblyReference.cache
+F:\Payroll\boningpayroll\boningpayroll\obj\Debug\boningpayroll.DEPARTMENT.resources
+F:\Payroll\boningpayroll\boningpayroll\obj\Debug\boningpayroll.frmEmployee.resources
+F:\Payroll\boningpayroll\boningpayroll\obj\Debug\boningpayroll.Resources.resources
+F:\Payroll\boningpayroll\boningpayroll\obj\Debug\boningpayroll.POSITION.resources
+F:\Payroll\boningpayroll\boningpayroll\obj\Debug\boningpayroll.vbproj.GenerateResource.Cache
+C:\Users\aCePaDe\Desktop\boningpayroll\boningpayroll\obj\Debug\boningpayroll.exe
+C:\Users\aCePaDe\Desktop\boningpayroll\boningpayroll\obj\Debug\boningpayroll.xml
+C:\Users\aCePaDe\Desktop\boningpayroll\boningpayroll\obj\Debug\boningpayroll.pdb
+C:\Users\aCePaDe\Desktop\boningpayroll\boningpayroll\bin\Debug\boningpayroll.exe
+C:\Users\aCePaDe\Desktop\boningpayroll\boningpayroll\bin\Debug\boningpayroll.pdb
+C:\Users\aCePaDe\Desktop\boningpayroll\boningpayroll\bin\Debug\boningpayroll.xml
+C:\Users\aCePaDe\Desktop\boningpayroll\boningpayroll\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\aCePaDe\Desktop\boningpayroll\boningpayroll\obj\Debug\boningpayroll.frmEmployee.resources
+C:\Users\aCePaDe\Desktop\boningpayroll\boningpayroll\obj\Debug\boningpayroll.Resources.resources
+C:\Users\aCePaDe\Desktop\boningpayroll\boningpayroll\obj\Debug\boningpayroll.vbproj.GenerateResource.Cache
+C:\Users\aCePaDe\Desktop\boningpayroll\boningpayroll\obj\Debug\boningpayroll.frmDepartment.resources
+C:\Users\aCePaDe\Desktop\boningpayroll\boningpayroll\obj\Debug\boningpayroll.frmPosition.resources
+C:\Users\aCePaDe\Desktop\boningpayroll\boningpayroll\obj\Debug\boningpayroll.frmMain.resources
+C:\Users\aCePaDe\Desktop\boningpayroll\boningpayroll\obj\Debug\boningpayroll.Payroll.resources
