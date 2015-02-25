@@ -62,7 +62,6 @@ Partial Class frmEmployee
         Me.TabPage2 = New System.Windows.Forms.TabPage
         Me.Label15 = New System.Windows.Forms.Label
         Me.txtRefName = New System.Windows.Forms.TextBox
-        Me.txtEmpNo = New System.Windows.Forms.TextBox
         Me.panel2 = New System.Windows.Forms.Panel
         Me.Label67 = New System.Windows.Forms.Label
         Me.RadioButton2 = New System.Windows.Forms.RadioButton
@@ -74,6 +73,7 @@ Partial Class frmEmployee
         Me.columnHeader2 = New System.Windows.Forms.ColumnHeader
         Me.columnHeader3 = New System.Windows.Forms.ColumnHeader
         Me.MenuStrip3 = New System.Windows.Forms.MenuStrip
+        Me.txtEmpNo = New System.Windows.Forms.TextBox
         Me.grpEmp.SuspendLayout()
         CType(Me.picPhoto, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.tabControl1.SuspendLayout()
@@ -85,6 +85,7 @@ Partial Class frmEmployee
         'grpEmp
         '
         Me.grpEmp.BackColor = System.Drawing.Color.LightGray
+        Me.grpEmp.Controls.Add(Me.txtEmpNo)
         Me.grpEmp.Controls.Add(Me.Button2)
         Me.grpEmp.Controls.Add(Me.btnDELETE)
         Me.grpEmp.Controls.Add(Me.btnSve)
@@ -116,7 +117,6 @@ Partial Class frmEmployee
         Me.grpEmp.Controls.Add(Me.lblName)
         Me.grpEmp.Controls.Add(Me.label3)
         Me.grpEmp.Controls.Add(Me.tabControl1)
-        Me.grpEmp.Controls.Add(Me.txtEmpNo)
         Me.grpEmp.Location = New System.Drawing.Point(5, 35)
         Me.grpEmp.Name = "grpEmp"
         Me.grpEmp.Size = New System.Drawing.Size(619, 583)
@@ -224,11 +224,12 @@ Partial Class frmEmployee
         '
         'txtRate
         '
-        Me.txtRate.Location = New System.Drawing.Point(400, 198)
+        Me.txtRate.Location = New System.Drawing.Point(398, 195)
         Me.txtRate.Multiline = True
         Me.txtRate.Name = "txtRate"
         Me.txtRate.Size = New System.Drawing.Size(113, 20)
         Me.txtRate.TabIndex = 26
+        Me.txtRate.Text = "0.00"
         Me.txtRate.TextAlign = System.Windows.Forms.HorizontalAlignment.Right
         '
         'label11
@@ -245,9 +246,9 @@ Partial Class frmEmployee
         Me.label10.AutoSize = True
         Me.label10.Location = New System.Drawing.Point(318, 198)
         Me.label10.Name = "label10"
-        Me.label10.Size = New System.Drawing.Size(65, 13)
+        Me.label10.Size = New System.Drawing.Size(75, 13)
         Me.label10.TabIndex = 23
-        Me.label10.Text = "Daily Rate : "
+        Me.label10.Text = "Daily Rate :  P"
         '
         'txtAddress
         '
@@ -480,14 +481,6 @@ Partial Class frmEmployee
         Me.txtRefName.Size = New System.Drawing.Size(274, 20)
         Me.txtRefName.TabIndex = 34
         '
-        'txtEmpNo
-        '
-        Me.txtEmpNo.Location = New System.Drawing.Point(99, 20)
-        Me.txtEmpNo.Multiline = True
-        Me.txtEmpNo.Name = "txtEmpNo"
-        Me.txtEmpNo.Size = New System.Drawing.Size(94, 20)
-        Me.txtEmpNo.TabIndex = 8
-        '
         'panel2
         '
         Me.panel2.BackColor = System.Drawing.Color.LightGray
@@ -500,7 +493,7 @@ Partial Class frmEmployee
         Me.panel2.Controls.Add(Me.lvwEmpList)
         Me.panel2.Location = New System.Drawing.Point(636, 35)
         Me.panel2.Name = "panel2"
-        Me.panel2.Size = New System.Drawing.Size(406, 309)
+        Me.panel2.Size = New System.Drawing.Size(406, 581)
         Me.panel2.TabIndex = 12
         '
         'Label67
@@ -558,7 +551,7 @@ Partial Class frmEmployee
         Me.lvwEmpList.GridLines = True
         Me.lvwEmpList.Location = New System.Drawing.Point(12, 96)
         Me.lvwEmpList.Name = "lvwEmpList"
-        Me.lvwEmpList.Size = New System.Drawing.Size(380, 203)
+        Me.lvwEmpList.Size = New System.Drawing.Size(380, 477)
         Me.lvwEmpList.TabIndex = 3
         Me.lvwEmpList.UseCompatibleStateImageBehavior = False
         Me.lvwEmpList.View = System.Windows.Forms.View.Details
@@ -586,6 +579,13 @@ Partial Class frmEmployee
         Me.MenuStrip3.Size = New System.Drawing.Size(1054, 24)
         Me.MenuStrip3.TabIndex = 16
         Me.MenuStrip3.Text = "MenuStrip3"
+        '
+        'txtEmpNo
+        '
+        Me.txtEmpNo.Location = New System.Drawing.Point(99, 21)
+        Me.txtEmpNo.Name = "txtEmpNo"
+        Me.txtEmpNo.Size = New System.Drawing.Size(90, 20)
+        Me.txtEmpNo.TabIndex = 37
         '
         'frmEmployee
         '
@@ -644,7 +644,6 @@ Partial Class frmEmployee
     Private WithEvents txtEmail As System.Windows.Forms.TextBox
     Private WithEvents txtCellPhone As System.Windows.Forms.TextBox
     Private WithEvents label16 As System.Windows.Forms.Label
-    Private WithEvents txtEmpNo As System.Windows.Forms.TextBox
     Private WithEvents cboDepartment As System.Windows.Forms.ComboBox
     Private WithEvents label11 As System.Windows.Forms.Label
     Friend WithEvents TabPage2 As System.Windows.Forms.TabPage
@@ -666,5 +665,6 @@ Partial Class frmEmployee
     Private WithEvents Label15 As System.Windows.Forms.Label
     Friend WithEvents MenuStrip3 As System.Windows.Forms.MenuStrip
     Friend WithEvents Button2 As System.Windows.Forms.Button
+    Friend WithEvents txtEmpNo As System.Windows.Forms.TextBox
 
 End Class

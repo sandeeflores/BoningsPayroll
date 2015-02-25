@@ -2,9 +2,14 @@
 Public Class frmEmployee
     Dim is_deleted As Boolean
     Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+
         ClearField()
-
-
+        'disable buttons not needed yet
+        btnSave.Enabled = False
+        btnEDIT.Enabled = False
+        btnDELETE.Enabled = False
+        btnSave.Enabled = False
+        btnSve.Enabled = False
     End Sub
 
     Private Sub PictureBox1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
@@ -12,7 +17,11 @@ Public Class frmEmployee
     End Sub
 
     Private Sub btnNEW_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnNEW.Click
+
+        txtLname.Focus()
         ClearField()
+        btnNEW.Enabled = False
+        btnSve.Enabled = True
 
     End Sub
 
@@ -41,7 +50,6 @@ Public Class frmEmployee
         txtAddress.Text = ""
         txtCellPhone.Text = ""
         txtEmail.Text = ""
-        txtEmpNo.Text = ""
         txtFname.Text = ""
         txtLname.Text = ""
         txtMname.Text = ""
@@ -59,6 +67,7 @@ Public Class frmEmployee
     End Sub
 
     Private Sub btnSve_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnSve.Click
+
         'CHECK THE REQUIRED FIELD
 
         Dim msg As String
@@ -66,7 +75,7 @@ Public Class frmEmployee
         OpenConnection()
         Dim sqlText As String
         Dim cmd As New SqlCommand
-        Dim employee_id As Integer = Val("0000+1")
+        Dim employee_id As Int32 = 0
         Dim lastname As String = txtLname.Text
         Dim firstname As String = txtFname.Text
         Dim middlename As String = txtMname.Text
@@ -77,11 +86,12 @@ Public Class frmEmployee
         Dim dateHired As String = dtpHired.Text
         Dim position_id As String = cboPos.Text
         Dim daily_rate As String = txtRate.Text
-        If txtEmpNo.Text = String.Empty Then
-            MsgBox("Please input Employee No.")
-            txtEmpNo.Focus()
-            Exit Sub
-        End If
+
+        'If txtEmpNo.Text = String.Empty Then
+        '    MsgBox("Please input Employee No.")
+        '    txtEmpNo.Focus()
+        '    Exit Sub
+        'End If
 
         If txtLname.Text = String.Empty Then
             MsgBox("Please input Last name.")
@@ -157,7 +167,8 @@ Public Class frmEmployee
         cmd.CommandType = CommandType.StoredProcedure
         cmd.CommandText = "sqlText"
 
-        cmd.Parameters.AddWithValue("@employee_id", employee_id)
+        'save all the entries
+        'cmd.Parameters.AddWithValue("@employee_id", employee_id) 
         cmd.Parameters.AddWithValue("@lastname", lastname)
         cmd.Parameters.AddWithValue("@firstname", firstname)
         cmd.Parameters.AddWithValue("@middlename", middlename)
@@ -171,7 +182,7 @@ Public Class frmEmployee
         cmd.Parameters.AddWithValue("@daily_rate", daily_rate)
 
 
-        employee_id = cmd.ExecuteScalar
+        employee_id = Convert.ToInt32(cmd.ExecuteScalar())
 
         cmd.Dispose()
         CloseConnection()
@@ -181,12 +192,17 @@ Public Class frmEmployee
 
         MsgBox(msg)
         Me.DialogResult = Windows.Forms.DialogResult.OK
+        btnNEW.Enabled = True
 
         Exit Sub
 
     End Sub
 
     Private Sub dtpBdate_ValueChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles dtpBdate.ValueChanged
+
+    End Sub
+
+    Private Sub txtEmpNo_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs)
 
     End Sub
 End Class
