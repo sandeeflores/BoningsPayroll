@@ -46,3 +46,6 @@ C:\Users\aCePaDe\Desktop\boningpayroll\boningpayroll\obj\Debug\boningpayroll.frm
 C:\Users\aCePaDe\Desktop\boningpayroll\boningpayroll\obj\Debug\boningpayroll.frmPosition.resources
 C:\Users\aCePaDe\Desktop\boningpayroll\boningpayroll\obj\Debug\boningpayroll.frmMain.resources
 C:\Users\aCePaDe\Desktop\boningpayroll\boningpayroll\obj\Debug\boningpayroll.Payroll.resources
+C:\Users\RICARDO\Documents\GitHub\BoningsPayroll\obj\Debug\boningpayroll.exe
+C:\Users\RICARDO\Documents\GitHub\BoningsPayroll\obj\Debug\boningpayroll.xml
+C:\Users\RICARDO\Documents\GitHub\BoningsPayroll\obj\Debug\boningpayroll.pdb
