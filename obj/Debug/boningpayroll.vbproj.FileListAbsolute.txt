@@ -49,3 +49,14 @@ C:\Users\aCePaDe\Desktop\boningpayroll\boningpayroll\obj\Debug\boningpayroll.Pay
 C:\Users\RICARDO\Documents\GitHub\BoningsPayroll\obj\Debug\boningpayroll.exe
 C:\Users\RICARDO\Documents\GitHub\BoningsPayroll\obj\Debug\boningpayroll.xml
 C:\Users\RICARDO\Documents\GitHub\BoningsPayroll\obj\Debug\boningpayroll.pdb
+C:\Users\RICARDO\Documents\GitHub\BoningsPayroll\bin\Debug\boningpayroll.exe
+C:\Users\RICARDO\Documents\GitHub\BoningsPayroll\bin\Debug\boningpayroll.pdb
+C:\Users\RICARDO\Documents\GitHub\BoningsPayroll\bin\Debug\boningpayroll.xml
+C:\Users\RICARDO\Documents\GitHub\BoningsPayroll\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\RICARDO\Documents\GitHub\BoningsPayroll\obj\Debug\boningpayroll.frmDepartment.resources
+C:\Users\RICARDO\Documents\GitHub\BoningsPayroll\obj\Debug\boningpayroll.frmEmployee.resources
+C:\Users\RICARDO\Documents\GitHub\BoningsPayroll\obj\Debug\boningpayroll.frmMain.resources
+C:\Users\RICARDO\Documents\GitHub\BoningsPayroll\obj\Debug\boningpayroll.Resources.resources
+C:\Users\RICARDO\Documents\GitHub\BoningsPayroll\obj\Debug\boningpayroll.frmPosition.resources
+C:\Users\RICARDO\Documents\GitHub\BoningsPayroll\obj\Debug\boningpayroll.Payroll.resources
+C:\Users\RICARDO\Documents\GitHub\BoningsPayroll\obj\Debug\boningpayroll.vbproj.GenerateResource.Cache

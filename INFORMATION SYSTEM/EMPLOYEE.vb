@@ -70,10 +70,8 @@ Public Class frmEmployee
 
         'CHECK THE REQUIRED FIELD
 
-        Dim msg As String
         Dim i = lvwEmpList.Items.Count
         OpenConnection()
-        Dim sqlText As String
         Dim cmd As New SqlCommand
         Dim employee_id As Int32 = 0
         Dim lastname As String = txtLname.Text
@@ -190,7 +188,6 @@ Public Class frmEmployee
 
 
 
-        MsgBox(msg)
         Me.DialogResult = Windows.Forms.DialogResult.OK
         btnNEW.Enabled = True
 

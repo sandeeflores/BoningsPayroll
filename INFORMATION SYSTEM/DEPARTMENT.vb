@@ -286,4 +286,7 @@ Public Class frmDepartment
         txtName.Focus()
     End Sub
 
+    Private Sub grpAdd_Enter(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles grpAdd.Enter
+
+    End Sub
 End Class

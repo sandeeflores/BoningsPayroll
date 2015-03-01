@@ -6,7 +6,7 @@ Module mdlDBConnection
     Public Sub OpenConnection()
         Try
             connBIS = New SqlConnection
-            Dim server_name As String = "(local)" '"MYCOMPUTER-PC\SQLEXPRESS"
+            Dim server_name As String = "localhost" '"localhost\SQLEXPRESS"
             Dim db_name As String = "BONINGS"
 
             connBIS.ConnectionString = "Server=" + server_name + ";Database=" + db_name + ";Trusted_Connection=Yes;"

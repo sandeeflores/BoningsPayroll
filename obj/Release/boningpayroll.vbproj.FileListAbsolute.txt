@@ -1,0 +1,8 @@
+C:\Users\RICARDO\Documents\GitHub\BoningsPayroll\obj\Release\ResolveAssemblyReference.cache
+C:\Users\RICARDO\Documents\GitHub\BoningsPayroll\obj\Release\boningpayroll.frmDepartment.resources
+C:\Users\RICARDO\Documents\GitHub\BoningsPayroll\obj\Release\boningpayroll.frmEmployee.resources
+C:\Users\RICARDO\Documents\GitHub\BoningsPayroll\obj\Release\boningpayroll.frmMain.resources
+C:\Users\RICARDO\Documents\GitHub\BoningsPayroll\obj\Release\boningpayroll.Resources.resources
+C:\Users\RICARDO\Documents\GitHub\BoningsPayroll\obj\Release\boningpayroll.frmPosition.resources
+C:\Users\RICARDO\Documents\GitHub\BoningsPayroll\obj\Release\boningpayroll.Payroll.resources
+C:\Users\RICARDO\Documents\GitHub\BoningsPayroll\obj\Release\boningpayroll.vbproj.GenerateResource.Cache
