@@ -46,6 +46,11 @@ Partial Class frmPosition
         Me.lblListEmp = New System.Windows.Forms.Label
         Me.btnDelete = New System.Windows.Forms.Button
         Me.CheckBox1 = New System.Windows.Forms.CheckBox
+        Me.TextBox1 = New System.Windows.Forms.TextBox
+        Me.Label1 = New System.Windows.Forms.Label
+        Me.Label2 = New System.Windows.Forms.Label
+        Me.Label6 = New System.Windows.Forms.Label
+        Me.Label7 = New System.Windows.Forms.Label
         Me.panel3.SuspendLayout()
         Me.grpPos.SuspendLayout()
         Me.SuspendLayout()
@@ -224,9 +229,10 @@ Partial Class frmPosition
         Me.lvwEmployee.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lvwEmployee.FullRowSelect = True
         Me.lvwEmployee.GridLines = True
-        Me.lvwEmployee.Location = New System.Drawing.Point(456, 64)
+        Me.lvwEmployee.HeaderStyle = System.Windows.Forms.ColumnHeaderStyle.None
+        Me.lvwEmployee.Location = New System.Drawing.Point(456, 123)
         Me.lvwEmployee.Name = "lvwEmployee"
-        Me.lvwEmployee.Size = New System.Drawing.Size(365, 474)
+        Me.lvwEmployee.Size = New System.Drawing.Size(365, 415)
         Me.lvwEmployee.TabIndex = 33
         Me.lvwEmployee.UseCompatibleStateImageBehavior = False
         Me.lvwEmployee.View = System.Windows.Forms.View.Details
@@ -238,7 +244,7 @@ Partial Class frmPosition
         'colNameEmp
         '
         Me.colNameEmp.Text = "Name"
-        Me.colNameEmp.Width = 200
+        Me.colNameEmp.Width = 199
         '
         'colDateHired
         '
@@ -278,6 +284,54 @@ Partial Class frmPosition
         Me.CheckBox1.Text = "Check Items to Delete"
         Me.CheckBox1.UseVisualStyleBackColor = True
         '
+        'TextBox1
+        '
+        Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.TextBox1.Location = New System.Drawing.Point(521, 70)
+        Me.TextBox1.Name = "TextBox1"
+        Me.TextBox1.Size = New System.Drawing.Size(298, 24)
+        Me.TextBox1.TabIndex = 37
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Location = New System.Drawing.Point(460, 73)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(55, 18)
+        Me.Label1.TabIndex = 38
+        Me.Label1.Text = "Search"
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(464, 105)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(59, 18)
+        Me.Label2.TabIndex = 39
+        Me.Label2.Text = "EmpNo"
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label6.Location = New System.Drawing.Point(521, 105)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(48, 18)
+        Me.Label6.TabIndex = 40
+        Me.Label6.Text = "Name"
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Font = New System.Drawing.Font("Microsoft Sans Serif", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label7.Location = New System.Drawing.Point(718, 105)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(78, 18)
+        Me.Label7.TabIndex = 41
+        Me.Label7.Text = "Date Hired"
+        '
         'frmPosition
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -285,6 +339,11 @@ Partial Class frmPosition
         Me.BackColor = System.Drawing.Color.DarkGray
         Me.ClientSize = New System.Drawing.Size(831, 578)
         Me.ControlBox = False
+        Me.Controls.Add(Me.Label7)
+        Me.Controls.Add(Me.Label6)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.CheckBox1)
         Me.Controls.Add(Me.btnDelete)
         Me.Controls.Add(Me.lblListEmp)
@@ -328,4 +387,9 @@ Partial Class frmPosition
     Friend WithEvents lblListEmp As System.Windows.Forms.Label
     Private WithEvents btnDelete As System.Windows.Forms.Button
     Friend WithEvents CheckBox1 As System.Windows.Forms.CheckBox
+    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents Label6 As System.Windows.Forms.Label
+    Friend WithEvents Label7 As System.Windows.Forms.Label
 End Class

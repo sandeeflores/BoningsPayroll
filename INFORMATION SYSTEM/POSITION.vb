@@ -250,6 +250,7 @@ Public Class frmPosition
 
     Private Sub frmPosition_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         LoadPosition()
+        'LoadEmployee()
     End Sub
 
     Private Sub btnDelete_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles btnDelete.Click
@@ -289,4 +290,44 @@ Public Class frmPosition
         LoadPosition()
     End Sub
 
+    Private Sub TextBox1_TextChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TextBox1.TextChanged
+
+        OpenConnection()
+        Dim cmd As New SqlCommand
+
+        cmd.Connection = connBIS
+        cmd.CommandType = CommandType.StoredProcedure
+        cmd.CommandText = "SearchEmpDept"
+        cmd.Parameters.AddWithValue("@str", TextBox1.Text)
+
+        Dim dr As SqlDataReader = cmd.ExecuteReader
+        lvwEmployee.Items.Clear()
+        'populate your listview 
+        If dr.HasRows Then
+            'lvwPos.CheckBoxes = True
+            Do While dr.Read()
+                Dim item As New ListViewItem
+                item.Text = dr("EmpNo")
+                item.SubItems.Add(dr("FirstName") & " " & dr("LastName"))
+                item.SubItems.Add(dr("DateHired"))
+                lvwEmployee.Items.Add(item)
+            Loop
+            'Me.lvwEmployee.AutoResizeColumn(0, ColumnHeaderAutoResizeStyle.HeaderSize)
+            'Me.lvwEmployee.AutoResizeColumns(ColumnHeaderAutoResizeStyle.ColumnContent)
+        End If
+
+
+        dr.Close()
+        cmd.Dispose()
+        CloseConnection()
+
+    End Sub
+
+    Private Sub lvwEmployee_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles lvwEmployee.SelectedIndexChanged
+
+    End Sub
+
+    Private Sub Label2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Label2.Click
+
+    End Sub
 End Class
