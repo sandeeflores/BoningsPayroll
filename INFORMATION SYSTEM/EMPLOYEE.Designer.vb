@@ -23,6 +23,7 @@ Partial Class frmEmployee
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.grpEmp = New System.Windows.Forms.GroupBox
+        Me.txtEmpNo = New System.Windows.Forms.TextBox
         Me.Button2 = New System.Windows.Forms.Button
         Me.btnDELETE = New System.Windows.Forms.Button
         Me.btnSve = New System.Windows.Forms.Button
@@ -73,18 +74,25 @@ Partial Class frmEmployee
         Me.columnHeader2 = New System.Windows.Forms.ColumnHeader
         Me.columnHeader3 = New System.Windows.Forms.ColumnHeader
         Me.MenuStrip3 = New System.Windows.Forms.MenuStrip
-        Me.txtEmpNo = New System.Windows.Forms.TextBox
+        Me.Panel1 = New System.Windows.Forms.Panel
+        Me.Label1 = New System.Windows.Forms.Label
+        Me.RadioButton6 = New System.Windows.Forms.RadioButton
+        Me.RadioButton5 = New System.Windows.Forms.RadioButton
+        Me.RadioButton4 = New System.Windows.Forms.RadioButton
+        Me.RadioButton3 = New System.Windows.Forms.RadioButton
         Me.grpEmp.SuspendLayout()
         CType(Me.picPhoto, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.tabControl1.SuspendLayout()
         Me.tabPage1.SuspendLayout()
         Me.TabPage2.SuspendLayout()
         Me.panel2.SuspendLayout()
+        Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
         'grpEmp
         '
         Me.grpEmp.BackColor = System.Drawing.Color.LightGray
+        Me.grpEmp.Controls.Add(Me.Panel1)
         Me.grpEmp.Controls.Add(Me.txtEmpNo)
         Me.grpEmp.Controls.Add(Me.Button2)
         Me.grpEmp.Controls.Add(Me.btnDELETE)
@@ -123,6 +131,13 @@ Partial Class frmEmployee
         Me.grpEmp.TabIndex = 1
         Me.grpEmp.TabStop = False
         Me.grpEmp.Text = "Employee Information"
+        '
+        'txtEmpNo
+        '
+        Me.txtEmpNo.Location = New System.Drawing.Point(99, 21)
+        Me.txtEmpNo.Name = "txtEmpNo"
+        Me.txtEmpNo.Size = New System.Drawing.Size(90, 20)
+        Me.txtEmpNo.TabIndex = 37
         '
         'Button2
         '
@@ -532,7 +547,7 @@ Partial Class frmEmployee
         '
         Me.txtSearch.Location = New System.Drawing.Point(79, 43)
         Me.txtSearch.Name = "txtSearch"
-        Me.txtSearch.Size = New System.Drawing.Size(219, 20)
+        Me.txtSearch.Size = New System.Drawing.Size(313, 20)
         Me.txtSearch.TabIndex = 5
         '
         'Label68
@@ -580,12 +595,70 @@ Partial Class frmEmployee
         Me.MenuStrip3.TabIndex = 16
         Me.MenuStrip3.Text = "MenuStrip3"
         '
-        'txtEmpNo
+        'Panel1
         '
-        Me.txtEmpNo.Location = New System.Drawing.Point(99, 21)
-        Me.txtEmpNo.Name = "txtEmpNo"
-        Me.txtEmpNo.Size = New System.Drawing.Size(90, 20)
-        Me.txtEmpNo.TabIndex = 37
+        Me.Panel1.Controls.Add(Me.Label1)
+        Me.Panel1.Controls.Add(Me.RadioButton6)
+        Me.Panel1.Controls.Add(Me.RadioButton5)
+        Me.Panel1.Controls.Add(Me.RadioButton4)
+        Me.Panel1.Controls.Add(Me.RadioButton3)
+        Me.Panel1.Location = New System.Drawing.Point(329, 226)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(276, 56)
+        Me.Panel1.TabIndex = 38
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(12, 7)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(67, 13)
+        Me.Label1.TabIndex = 47
+        Me.Label1.Text = "Performance"
+        '
+        'RadioButton6
+        '
+        Me.RadioButton6.AutoSize = True
+        Me.RadioButton6.Location = New System.Drawing.Point(215, 25)
+        Me.RadioButton6.Name = "RadioButton6"
+        Me.RadioButton6.Size = New System.Drawing.Size(47, 17)
+        Me.RadioButton6.TabIndex = 46
+        Me.RadioButton6.TabStop = True
+        Me.RadioButton6.Text = "Poor"
+        Me.RadioButton6.UseVisualStyleBackColor = True
+        '
+        'RadioButton5
+        '
+        Me.RadioButton5.AutoSize = True
+        Me.RadioButton5.Location = New System.Drawing.Point(167, 25)
+        Me.RadioButton5.Name = "RadioButton5"
+        Me.RadioButton5.Size = New System.Drawing.Size(42, 17)
+        Me.RadioButton5.TabIndex = 45
+        Me.RadioButton5.TabStop = True
+        Me.RadioButton5.Text = "Fair"
+        Me.RadioButton5.UseVisualStyleBackColor = True
+        '
+        'RadioButton4
+        '
+        Me.RadioButton4.AutoSize = True
+        Me.RadioButton4.Location = New System.Drawing.Point(84, 24)
+        Me.RadioButton4.Name = "RadioButton4"
+        Me.RadioButton4.Size = New System.Drawing.Size(80, 17)
+        Me.RadioButton4.TabIndex = 44
+        Me.RadioButton4.TabStop = True
+        Me.RadioButton4.Text = "Satisfactory"
+        Me.RadioButton4.UseVisualStyleBackColor = True
+        '
+        'RadioButton3
+        '
+        Me.RadioButton3.AutoSize = True
+        Me.RadioButton3.Location = New System.Drawing.Point(14, 24)
+        Me.RadioButton3.Name = "RadioButton3"
+        Me.RadioButton3.Size = New System.Drawing.Size(68, 17)
+        Me.RadioButton3.TabIndex = 43
+        Me.RadioButton3.TabStop = True
+        Me.RadioButton3.Text = "Excellent"
+        Me.RadioButton3.UseVisualStyleBackColor = True
         '
         'frmEmployee
         '
@@ -610,6 +683,8 @@ Partial Class frmEmployee
         Me.TabPage2.PerformLayout()
         Me.panel2.ResumeLayout(False)
         Me.panel2.PerformLayout()
+        Me.Panel1.ResumeLayout(False)
+        Me.Panel1.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -666,5 +741,11 @@ Partial Class frmEmployee
     Friend WithEvents MenuStrip3 As System.Windows.Forms.MenuStrip
     Friend WithEvents Button2 As System.Windows.Forms.Button
     Friend WithEvents txtEmpNo As System.Windows.Forms.TextBox
+    Friend WithEvents Panel1 As System.Windows.Forms.Panel
+    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents RadioButton6 As System.Windows.Forms.RadioButton
+    Friend WithEvents RadioButton5 As System.Windows.Forms.RadioButton
+    Friend WithEvents RadioButton4 As System.Windows.Forms.RadioButton
+    Friend WithEvents RadioButton3 As System.Windows.Forms.RadioButton
 
 End Class
