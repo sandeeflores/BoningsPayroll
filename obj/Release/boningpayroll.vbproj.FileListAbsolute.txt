@@ -6,3 +6,9 @@ C:\Users\RICARDO\Documents\GitHub\BoningsPayroll\obj\Release\boningpayroll.Resou
 C:\Users\RICARDO\Documents\GitHub\BoningsPayroll\obj\Release\boningpayroll.frmPosition.resources
 C:\Users\RICARDO\Documents\GitHub\BoningsPayroll\obj\Release\boningpayroll.Payroll.resources
 C:\Users\RICARDO\Documents\GitHub\BoningsPayroll\obj\Release\boningpayroll.vbproj.GenerateResource.Cache
+C:\Users\RICARDO\Documents\GitHub\BoningsPayroll\bin\Release\boningpayroll.exe
+C:\Users\RICARDO\Documents\GitHub\BoningsPayroll\bin\Release\boningpayroll.pdb
+C:\Users\RICARDO\Documents\GitHub\BoningsPayroll\bin\Release\boningpayroll.xml
+C:\Users\RICARDO\Documents\GitHub\BoningsPayroll\obj\Release\boningpayroll.exe
+C:\Users\RICARDO\Documents\GitHub\BoningsPayroll\obj\Release\boningpayroll.xml
+C:\Users\RICARDO\Documents\GitHub\BoningsPayroll\obj\Release\boningpayroll.pdb

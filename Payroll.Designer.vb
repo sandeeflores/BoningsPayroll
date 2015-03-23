@@ -64,7 +64,7 @@ Partial Class Payroll
         Me.ListView1.GridLines = True
         Me.ListView1.Location = New System.Drawing.Point(12, 85)
         Me.ListView1.Name = "ListView1"
-        Me.ListView1.Size = New System.Drawing.Size(128, 311)
+        Me.ListView1.Size = New System.Drawing.Size(124, 311)
         Me.ListView1.TabIndex = 0
         Me.ListView1.UseCompatibleStateImageBehavior = False
         Me.ListView1.View = System.Windows.Forms.View.Details
