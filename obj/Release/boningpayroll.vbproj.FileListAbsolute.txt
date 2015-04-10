@@ -12,3 +12,4 @@ C:\Users\RICARDO\Documents\GitHub\BoningsPayroll\bin\Release\boningpayroll.xml
 C:\Users\RICARDO\Documents\GitHub\BoningsPayroll\obj\Release\boningpayroll.exe
 C:\Users\RICARDO\Documents\GitHub\BoningsPayroll\obj\Release\boningpayroll.xml
 C:\Users\RICARDO\Documents\GitHub\BoningsPayroll\obj\Release\boningpayroll.pdb
+C:\Users\RICARDO\Documents\GitHub\BoningsPayroll\obj\Release\boningpayroll.LoadLogs.resources

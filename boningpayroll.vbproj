@@ -80,6 +80,12 @@
       <DependentUpon>EMPLOYEE.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="LoadLogs.Designer.vb">
+      <DependentUpon>LoadLogs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LoadLogs.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="MAIN.Designer.vb">
       <DependentUpon>MAIN.vb</DependentUpon>
     </Compile>
@@ -122,6 +128,9 @@
     <EmbeddedResource Include="INFORMATION SYSTEM\EMPLOYEE.resx">
       <DependentUpon>EMPLOYEE.vb</DependentUpon>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoadLogs.resx">
+      <DependentUpon>LoadLogs.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MAIN.resx">
       <DependentUpon>MAIN.vb</DependentUpon>

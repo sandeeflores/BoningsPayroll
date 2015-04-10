@@ -60,3 +60,4 @@ C:\Users\RICARDO\Documents\GitHub\BoningsPayroll\obj\Debug\boningpayroll.Resourc
 C:\Users\RICARDO\Documents\GitHub\BoningsPayroll\obj\Debug\boningpayroll.frmPosition.resources
 C:\Users\RICARDO\Documents\GitHub\BoningsPayroll\obj\Debug\boningpayroll.Payroll.resources
 C:\Users\RICARDO\Documents\GitHub\BoningsPayroll\obj\Debug\boningpayroll.vbproj.GenerateResource.Cache
+C:\Users\RICARDO\Documents\GitHub\BoningsPayroll\obj\Debug\boningpayroll.LoadLogs.resources
